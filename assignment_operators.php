@@ -23,7 +23,4 @@ echo "After modulus by 3 = $a <br>";
 $a **=2; //exponent of variable a by 2 using **= opersator.
 echo "After exponent by 2 = $a <br>";
 
-
-
-
 ?>
