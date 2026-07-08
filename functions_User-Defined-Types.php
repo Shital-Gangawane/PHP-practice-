@@ -15,13 +15,13 @@ echo "<h3>1. Without parameter and without return</h3>";
 
  // 2. With parameter and witghout retrun type
 
- echo "<h3>2. With parameter and without return type";
+ echo "<h3>2. With parameter and without return type</h3>";
  
  function greet($name) // parameter
  {
-    echo "Welcome". $name ."<br>";
+    echo "Welcome " . $name . "<br>";
  }
- greet("Shital") ; //provide value to $ name function.
+ greet("Shital"); //provide value to $ name function.
 echo "<br>";
 
 // 3. Without parameter but with return
@@ -48,7 +48,7 @@ echo "Addition of 10 and 20 : " . add(10, 20);
 
  //Default parameter
  echo "<h3>Default parameter</h3>";
- 
+
  function user($name ="guest user")
  {
     echo "Hello $name <br>";
